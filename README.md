@@ -2,11 +2,13 @@
 
 ## Summary
 
-シネマカフェ（https://www.cinemacafe.net/）からアベンジャーズやマーベルに関する記事を抽出する。
-
-## Description
+シネマカフェ（<https://www.cinemacafe.net/>） からアベンジャーズやマーベルに関する記事を抽出する。
 
 ## Usage
+
+```shell
+python main.py
+```
 
 ## Requirements
 
