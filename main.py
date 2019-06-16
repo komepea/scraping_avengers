@@ -24,7 +24,7 @@ def main():
                 published_date = datetime.datetime.strptime(
                         f"{section.time['datetime'][:10]} {section.time['datetime'][11:16]}", '%Y-%m-%d %H:%M')
                 # 記事の投稿が12時間以内だった場合、通知対象とする
-                if (datetime.datetime.today() - published_date).total_seconds() < 43200:
+                if (datetime.datetime.today() - published_date).total_seconds() < 86400:
                     found_target_words.append(target_word)
 
         # 検出文字列があった時、Slackに通知する
