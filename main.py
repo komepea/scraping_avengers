@@ -4,6 +4,7 @@ import datetime
 import json
 import requests
 import const
+import slack
 from bs4 import BeautifulSoup
 
 
@@ -48,7 +49,7 @@ def post_slack(post_message):
         'username': 'Avengers Bot',
         'icon_emoji': ':avengers:'
     }
-    requests.post(const.SLACK_URL, data=json.dumps(post_json))
+    requests.post(slack.WEBHOOK_URL, data=json.dumps(post_json))
 
 
 if __name__ == '__main__':

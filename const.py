@@ -18,6 +18,3 @@ TARGET_WORDS = ["アベンジャーズ", "MARVEL",
                 "ワンダ・マキシモフ", "スカーレット・ウィッチ", "エリザベス・オルセン",
                 "クリント・バートン",
                 "サノス"]
-
-# Incoming WebhookのURL
-SLACK_URL = 'https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX'

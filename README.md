@@ -7,6 +7,13 @@
 ## Usage
 
 ```shell
+# Incoming Webhook URLの設定
+cd scraping_avengers
+echo "WEBHOOK_URL = 'https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX'" > slack.py
+```
+
+```shell
+# 実行
 python main.py
 ```
 
